@@ -1,0 +1,27 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        h1 Enter the coordinates
+        form(name="get-posts", method="post" action="/posts/proximity")
+            label(for='longitude') Longitude:
+            input(
+            id='longitude'
+            name='longitude'
+            type='text'
+            required
+            )
+            label(for='latitude') Latitude:
+            input(
+            id='latitude'
+            name='latitude'
+            type='text'
+            required
+            )
+
+            input(
+            type="submit"
+            value="Show posts"
+            )

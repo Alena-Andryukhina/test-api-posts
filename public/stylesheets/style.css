@@ -1,0 +1,37 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ul {
+  font-size: 18px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input {
+  height: 20px;
+  margin-right: 20px;
+}
+
+input[type=submit] {
+  font-size: 18px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+.title {
+  color: #a9a6a6;
+}
+
+.post {
+  font-weight: normal;
+}

@@ -1,0 +1,21 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        a(href='/') <<< BACK
+        h1 Posts
+        h3
+            span Username:
+            span=username
+        h3
+            span Distance:
+            span=distance
+        ul
+            each val in list
+                li
+                    div
+                        p(class='title')= val.title
+                        p(class='post')= val.body
+
